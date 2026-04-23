@@ -1,0 +1,28 @@
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# Dependencies
+vendor/
+node_modules/
+
+# Build/cache
+bootstrap/cache/*.php
+storage/*.key
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Upload temp/cache
+uploads/.DS_Store
